@@ -10,7 +10,7 @@ Inc.
 
 # OPTIONES
 Omnes optiones unius litterae, documentatae in descriptione mandati incorporati 'set', inclusa '-o', possunt uti optionibus cum concha invocatur. Praeterea, bash interpretatur sequentes optiones cum invocatur:
-
+```
 -c     Si optio '-c' praesens est, tunc mandata leguntur ex primo argumento non-optionis series_commandum. Si sunt argumenta post series_commandum, primum argumentum assignatur ad $0 et reliqua argumenta assignantur ad positiones. Assignatio ad $0 statuit nomen conchae, quod utitur in nuntiis monitionis et erroris.
 -i     Si optio '-i' praesens est, concha est interactiva.
 -l     Facit ut bash se gerat quasi invocata sit ut concha initium sessionis (vide INVOCATION infra).
@@ -20,9 +20,9 @@ Omnes optiones unius litterae, documentatae in descriptione mandati incorporati 
 [-+]O [shopt_option]
               shopt_option est una optionum conchae accepta a builtin 'shopt' (vide SHELL BUILTIN COMMANDS infra). Si shopt_option praesens est, '-O' ponit valorem illius optionis; '+O' eam solvit. Si shopt_option non suppeditatur, nomina et valores optionum conchae acceptarum a shopt imprimuntur in output standard. Si optio invocandi est '+O', output monstratur in forma quae possit uti iterum ut input.
 --     A '--' signat finem optionum et inhibet ulteriorem processum optionum. Quaevis argumenta post '--' tractantur ut nomina librorum et argumenta. Argumentum '-' aequiparatur '--'.
-
+```
 Bash etiam interpretatur numerum optionum multi-litterarum. Hae optiones debent apparere in linea mandati ante optiones uni-litterae ut recognoscantur.
-
+```
 --debugger
         Disponit ut profilum debugger exsequatur ante initium conchae. Activat modum extensionis debugging (vide descriptionem optionis 'extdebug' ad builtin 'shopt' infra).
 --dump-po-strings
@@ -48,7 +48,7 @@ Bash etiam interpretatur numerum optionum multi-litterarum. Hae optiones debent 
         Aequiparatur ad -v.
 --version
         Monstrat informationem versionis huius instantiae bash in output standard et exit cum successu.
-
+```
 ### ARGUMENTA
 Si argumenta supersunt post processum optionis, et neque -c neque -s optio tradita est, argumentum primum ut nomen libri mandata testudinis continentis accipitur.
 
