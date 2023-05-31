@@ -1,5 +1,5 @@
-# This is an experiment on GPT4 to test its Latinitas by translating a completely modern engineering text,
-# and one that is a classic in the field of technical writing. Source https://www.man7.org/linux/man-pages/man1/bash.1.html
+This is an experiment on GPT4 to test its Latinitas by translating a completely modern engineering text,
+and one that is a classic in the field of technical writing. Source https://www.man7.org/linux/man-pages/man1/bash.1.html
 
 # SYNTAGMA
 bash [optiones] [series_commandum | liber]
